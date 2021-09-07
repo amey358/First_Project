@@ -90,13 +90,31 @@ html, body {
     border-radius: 50%;
 }
 .main-footer {
+   
+    position: relative;
+    width: 100%;
+    
+   
+}
+.main-footer-container{
     background-color: #56CCF2;
     color: white;
-    padding: .25em 0;
-}
-
-.main-footer-container{
     display: flex;
+    padding: .25em 0;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;    
+    /* bottom: 0px; */
+}
+.main-footer ul {
+    display: flex;
+    list-style-type: none;
+}
+.main-footer li {
+    margin-left : 1em;
+}
+.main-footer img {
+    height: 30px;
 }
 
 .btn {
